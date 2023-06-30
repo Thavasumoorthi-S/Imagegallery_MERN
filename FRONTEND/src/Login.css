@@ -1,0 +1,36 @@
+.outer{
+    display:flex;
+    flex-direction: column;
+    min-height: 350px;
+    width: 30%;
+    margin-left: 35%;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color:chocolate;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.inners{
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 800;
+ }
+ 
+ .link:hover{
+   border:2px solid white
+ }
+ 
+ .link:active{
+   background-color: black;
+   color: white;
+ 
+ }
+ .link{
+     text-decoration:none;
+     color:white;
+ }
+ body{
+    background-color:darkgray;
+}
+
